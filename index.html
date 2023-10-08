@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Calculator</title>
+        <link rel="stylesheet" href="./style.css" />
+    </head>
+    <body>
+        <audio src="./startBeep.mp3" autoplay></audio>
+        <main>
+            <header class="screen">
+                <div class="input">
+                    <input type="text" id="in" minlength="0" maxlength="5" />
+                </div>
+                <div class="result" id="out">0</div>
+            </header>
+            <section class="body">
+                <div class="del"><button>X</button></div>
+                <div class="lefty"><button disabled>(</button></div>
+                <div class="righty"><button disabled>)</button></div>
+                <div class="op"><button>+</button></div>
+
+                <div class="num"><button>7</button></div>
+                <div class="num"><button>8</button></div>
+                <div class="num"><button>9</button></div>
+                <div class="op"><button>-</button></div>
+
+                <div class="num"><button>4</button></div>
+                <div class="num"><button>5</button></div>
+                <div class="num"><button>6</button></div>
+                <div class="op"><button>*</button></div>
+
+                <div class="num"><button>1</button></div>
+                <div class="num"><button>2</button></div>
+                <div class="num"><button>3</button></div>
+                <div class="op"><button>/</button></div>
+
+                <div class="num"><button>0</button></div>
+                <div class="num point"><button>.</button></div>
+                <div class="op mod"><button disabled>mod</button></div>
+
+                <div class="op eq"><button>=</button></div>
+            </section>
+            <footer>GX-200</footer>
+        </main>
+        <script src="./main.js"></script>
+    </body>
+</html>
